@@ -97,10 +97,8 @@ someFunc = putStrLn "someFunc"
 {-# START_FILE app/Main.hs #-}
 module Main (main) where
 
-import Lib
-
 main :: IO ()
-main = someFunc
+main = putStrLn "hello!"
 
 {-# START_FILE README.md #-}
 # {{name}}
