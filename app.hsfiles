@@ -1,5 +1,5 @@
 {-# START_FILE stack.yaml #-}
-resolver: lts-20.0
+resolver: lts-21.0
 packages:
 - .
 
@@ -105,7 +105,7 @@ main = putStrLn "hello!"
 # {{name}}
 
 {-# START_FILE LICENSE #-}
-Copyright {{year}}{{^year}}2022{{/year}} {{author-name}}{{^author-name}}Author name here{{/author-name}}
+Copyright {{year}}{{^year}}2024{{/year}} {{author-name}}{{^author-name}}Author name here{{/author-name}}
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
